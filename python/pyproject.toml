@@ -24,9 +24,9 @@ dependencies = [
     "opencv-python==4.10.0.84",
     "p4python==2025.1.2767466",
     "pandas==2.2.3",
-    "psutil==5.9.0",
+    "psutil==5.9.8",
     "scipy==1.14.1",
     "trimesh==4.4.0",
     "vtk==9.4.1; sys_platform != 'win32'",    # install separately on Windows via "conda install -c conda-forge mayavi"
-    "wget==3.2",
+    # "wget==3.2", # old package that interferes w/ recent python installs, only used in stanford dataset example, should probably be replaced w/ requests.
     "yacs==0.1.8"]
